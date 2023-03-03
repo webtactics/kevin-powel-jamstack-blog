@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/webtactics/kevin-powel-jamstack-blog#readme",
   "devDependencies": {
-    "@11ty/eleventy": "^2.0.0"
+    "@11ty/eleventy": "^2.0.0",
+    "netlify-plugin-minify-html": "^0.3.1"
   }
 }
