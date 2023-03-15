@@ -16,11 +16,16 @@ meta: all our service posts
 {% include 'article-snippet.njk' %}
   {%- endfor -%}
   
-  </ul>
-  
-  
-  
+</ul>
+</div>
 
-  </div>
+<div class="section container">
+<h1 class="section-title">More articles Post blog sum</h1>
+<div class="grid-2-columns">
+{%- for post in collections.services | reverse | limit(5) -%} 
+{% include 'blog-summary.njk' %}
+{%- endfor -%}
+</div>
+</div>
    
   
