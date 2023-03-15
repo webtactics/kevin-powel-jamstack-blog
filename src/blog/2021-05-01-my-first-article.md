@@ -3,7 +3,7 @@ title: My First Article
 author: Kevin Powell
 date: 2021-05-01
 tags: ["post", "featured"]
-image: https://ik.imagekit.io/webtactics/changs/tr:w-1600,h-800,q-80/images/slider/oriental-fried-noodle-salad.jpg
+image: https://ik.imagekit.io/webtactics/changs/images/slider/oriental-fried-noodle-salad.jpg
 imageAlt: This is a test
 description: Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis accusantium sit illo neque rem omnis quaerat, nam similique vitae delectus ad magni vel quo maxime, magnam placeat. Reprehenderit, distinctio aliquam?
 ---
