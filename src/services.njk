@@ -8,14 +8,14 @@ layout: 'base.njk'
        
 <div class="section container">
 <h1 class="section-title">Blog articles</h1>
-
+<div class="grid-2-columns">
 
 {%- for post in collections.post | reverse -%} 
   
 {% include 'blog-summary.njk' %}
 {%- endfor -%}
   
- 
+ </div>
   
   
   
