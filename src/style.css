@@ -392,6 +392,11 @@ section,
   grid-template-columns: repeat(2, 1fr);
 }
 
+.blog-summary img {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+}
 .blog_image {
   width: 100%;
   aspect-ratio: 16 / 9;
