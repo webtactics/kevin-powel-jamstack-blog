@@ -388,7 +388,7 @@ section,
 
 .grid-2-columns {
   display: grid;
-  gap: 1rem;
+  gap: 2em;
   grid-template-columns: repeat(2, 1fr);
 }
 
