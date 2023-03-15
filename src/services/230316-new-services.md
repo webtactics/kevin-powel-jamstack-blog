@@ -1,10 +1,10 @@
 ---
-title: New Article blog
+title: New Services
 author: Paul Goldsmith
-date: 2023-03-15
-tags: ["post", "featured"]
-image: https://ik.imagekit.io/webtactics/changs/images/slider/Changs-Chocolate-Spiders-2K-1.jpg
-imageAlt: This is a test
+date: 2023-03-16
+tags: ["post", "services"]
+image: https://ik.imagekit.io/webtactics/changs/images/Gallery/recipes/Changs-Chocolate-Spiders/Changs-Chocolate-Spiders-800-2.jpg
+imageAlt: This is a services
 description: New Article Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis accusantium sit illo neque rem omnis quaerat, nam similique vitae delectus ad magni vel quo maxime, magnam placeat. Reprehenderit, distinctio aliquam?
 ---
 
