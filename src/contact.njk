@@ -11,16 +11,34 @@ meta: Contact  us here
 <div class="section container">
 <h1 class="section-title">Recent articles</h1>
 <ul role="list" class="articles__list flow">
-  {%- for post in collections.services | reverse -%} 
-  
+{%- for post in collections.services | reverse -%} 
 {% include 'article-snippet.njk' %}
-  {%- endfor -%}
-  
-  </ul>
-  
-  
-  
-
-  </div>
+{%- endfor -%}
+</ul>
+</div>
+<div class="section container">
+<h1 class="section-title">More articles</h1>
+<ul role="list" class="articles__list flow">
+  {%- for post in collections.featured | reverse | limit(3) -%} 
+{% include 'article-snippet.njk' %}
+{%- endfor -%}
+</ul>
+</div>
+<div class="section container">
+<h1 class="section-title">More articles</h1>
+<ul role="list" class="articles__list flow">
+  {%- for post in collections.post | reverse | limit(5) -%} 
+{% include 'article-snippet.njk' %}
+{%- endfor -%}
+</ul>
+</div>
+<div class="section container">
+<h1 class="section-title">More articles Post blog sum</h1>
+<div class="grid-2-columns">
+  {%- for post in collections.post | reverse | limit(5) -%} 
+{% include 'blog-summary.njk' %}
+{%- endfor -%}
+</div>
+</div>
    
   
