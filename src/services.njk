@@ -10,11 +10,12 @@ meta: Service us
        
 <div class="section container">
 <h1 class="section-title">Services</h1>
+<h3 class="section-title">Services</h3>
 <div class="grid-2-columns">
 
 {%- for services in collections.services | reverse -%} 
   
-{% include 'blog-summary.njk' %}
+{% include 'services-summary.njk' %}
 {%- endfor -%}
   
  </div>

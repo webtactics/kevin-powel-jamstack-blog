@@ -1,0 +1,14 @@
+
+
+
+
+
+<article class="blog-summary">
+<a href="{{ services.url }}"><img class="blog__image" src="{{ services.data.image }}/tr:w-400,h-225" alt="{{ services.data.imageAlt }}" title="{{ services.data.imageAlt }}"></a>
+<h3 class="blog__title"><a href="{{ services.url }}">{{ services.data.title }}</a></h3>
+<p class="blog__meta">by <span>{{ services.data.author }}</span> on <span>{{ services.data.date | servicesDate }}</span></p>
+<p class="article__body">{{ services.data.description }}</p> 
+<a href="{{ services.url }}" class="btn btn--primary">Continue Reading</a>
+</article>
+
+
