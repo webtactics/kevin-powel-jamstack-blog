@@ -3,7 +3,7 @@ title: New Article - Services
 author: Paul Goldsmith
 date: 2023-03-15
 tags: ["post", "featured", "services"]
-image: https://ik.imagekit.io/webtactics/changs/tr:w-750,h-1000/cgblog/id262/Crispy_Noodle_Salad_ChangsWEB-3.jpg
+image: https://ik.imagekit.io/webtactics/changs/tr:w-1600,h-800,q-80/images/slider/Changs-Chocolate-Spiders-2K-1.jpg
 imageAlt: This is a test
 description: New Article Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis accusantium sit illo neque rem omnis quaerat, nam similique vitae delectus ad magni vel quo maxime, magnam placeat. Reprehenderit, distinctio aliquam?
 ---
