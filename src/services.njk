@@ -12,7 +12,7 @@ meta: Service us
 <h1 class="section-title">Services</h1>
 <div class="grid-2-columns">
 
-{%- for post in collections.services | reverse -%} 
+{%- for services in collections.services | reverse -%} 
   
 {% include 'blog-summary.njk' %}
 {%- endfor -%}
