@@ -1,24 +1,22 @@
 ---
 
-title: Services
+title: services
 layout: 'base.njk'
 class: services
-meta: Service us
+meta: all our service posts
 
 ----
 
        
 <div class="section container">
-<h1 class="section-title">Services</h1>
-<h3 class="section-title">Services 3</h3>
-<div class="grid-2-columns">
-
-{%- for posts in collections.featured | reverse -%} 
+<h1 class="section-title">Recent articles</h1>
+<ul role="list" class="articles__list flow">
+  {%- for post in collections.services | reverse | limit(4) -%} 
   
-{% include 'blog-summary.njk' %}
-{%- endfor -%}
+{% include 'article-snippet.njk' %}
+  {%- endfor -%}
   
- </div>
+  </ul>
   
   
   
