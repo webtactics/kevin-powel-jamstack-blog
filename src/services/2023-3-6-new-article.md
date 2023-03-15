@@ -1,9 +1,9 @@
 ---
-title: New Article
+title: New Services Article
 author: Paul Goldsmith
 date: 2023-03-16
 tags: ["services", "featured"]
-image: https://ik.imagekit.io/webtactics/changs-media/210723-Versatile-Salad-Dressing-Banner-web.jpg
+image: https://ik.imagekit.io/webtactics/changs/images/slider/Rainbow-Rocky-Road-Landscape-2-1600x800.jpg
 imageAlt: This is a test
 description: New Article Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis accusantium sit illo neque rem omnis quaerat, nam similique vitae delectus ad magni vel quo maxime, magnam placeat. Reprehenderit, distinctio aliquam?
 ---
