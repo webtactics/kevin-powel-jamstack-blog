@@ -1,7 +1,7 @@
 ---
 title: New Article
 author: Paul Goldsmith
-date: 2023-03-02
+date: 2023-03-16
 tags: ["services", "featured"]
 image: https://ik.imagekit.io/webtactics/changs-media/210723-Versatile-Salad-Dressing-Banner-web.jpg
 imageAlt: This is a test
