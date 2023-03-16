@@ -7,7 +7,6 @@
         <title>{{ title }}</title>
         <meta name="description" content="{{ meta }}">
         <link rel="stylesheet" href="/style.css">
-        <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
     </head>
     <body class=" {{ class }} " >
  {% include 'header.njk' %}
@@ -16,17 +15,7 @@
      </main>   
   {% include 'footer.njk' %}   
 
-  <script>
-  if (window.netlifyIdentity) {
-    window.netlifyIdentity.on("init", user => {
-      if (!user) {
-        window.netlifyIdentity.on("login", () => {
-          document.location.href = "/admin/";
-        });
-      }
-    });
-  }
-</script>
+
 
     </body>
 </html>
