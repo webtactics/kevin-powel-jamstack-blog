@@ -11,11 +11,8 @@
     <body class=" {{ class }} " >
  {% include 'header.njk' %}
  <main>
-   {{ content | safe }}
-     </main>   
-  {% include 'footer.njk' %}   
-
-
-
-    </body>
+{{ content | safe }}
+</main>   
+{% include 'footer.njk' %}   
+  </body>
 </html>
