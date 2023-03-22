@@ -11,7 +11,7 @@ class: blog
 <article class="main-article">
 <div class="container container--narrow flow">
 <h1 class="article-title">{{ title }}</h1>
-<figure class="main-article__figure"><img src="{{ image }}/tr:w-1000,h-600" alt="{{ imageAlt }}">
+<figure class="main-article__figure"><img src="{{ image }}/tr:w-1000,h-600" alt="{{ imageAlt }}" title="{{ imageAlt }}">
 <figcaption>{{ imageAlt }}</figcaption>
 </figure>
 {{ content | safe }}
